@@ -1,177 +1,222 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
     <style>
-        .top, 
+        .top,
         .nav {
             display: flex;
             justify-content: space-between;
         }
-        .nav{
+
+        .nav {
             background-color: black;
             color: white;
         }
-        .top-left, 
-        .top-right, 
-        .nav-left, 
+
+        .top-left,
+        .top-right,
+        .nav-left,
         .nav-right {
-            display: flex;  
+            display: flex;
         }
+
         .top-menu-item,
         .nav-menu-item {
             padding: 10px 20px;
         }
-        .nav-right > .nav-menu-item {
+
+        .nav-right>.nav-menu-item {
             font-size: 2em;
             color: yellow;
         }
-
-
     </style>
 </head>
+
 <body>
     <div class="top">
         <div class="top-left">
-            <div class="top-menu-item">LINK</div>
-            <div class="top-menu-item">LINK</div>
-            <div class="top-menu-item">LINK</div>
-            <div class="top-menu-item">LINK</div>
-            <div class="top-menu-item">LINK</div>
+            <div class="top-menu-item"><i class="fa-solid fa-w"></i></div>
+            <div class="top-menu-item">tutorials</div>
+            <div class="top-menu-item">references</div>
+            <div class="top-menu-item">exercises</div>
+            <div class="top-menu-item">videos</div>
         </div>
         <div class="top-right">
-            <div class="top-menu-item">LINK</div>
-            <div class="top-menu-item">LINK</div>
-            <div class="top-menu-item">LINK</div>
+            <div class="top-menu-item">website</div>
+            <div class="top-menu-item">paid courses</div>
+            <div class="top-menu-item">log in</div>
         </div>
     </div>
     <div class="nav">
         <div class="nav-left">
             <div class="nav-menu-item"> <i class="fa-solid fa-house-chimney"></i></div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
-            <div class="nav-menu-item">LINK</div>
+            <div class="nav-menu-item">HTML</div>
+            <div class="nav-menu-item">CSS</div>
+            <div class="nav-menu-item">JAVASCRIPT</div>
+            <div class="nav-menu-item">SQL</div>
+            <div class="nav-menu-item">PYTHON</div>
+            <div class="nav-menu-item">PHP</div>
+            <div class="nav-menu-item">BOOTSTRAP</div>
+            <div class="nav-menu-item">HOW TO</div>
+            <div class="nav-menu-item">W3.CSS</div>
+            <div class="nav-menu-item">JAVA</div>
+            <div class="nav-menu-item">JQUERY</div>
+            <div class="nav-menu-item">C++</div>
+            <div class="nav-menu-item">C#</div>
+            <div class="nav-menu-item">R</div>
+            <div class="nav-menu-item">React</div>
+            <div class="nav-menu-item">Kotlin</div>
         </div>
-            <div class="nav-right">
-        <div class="nav-menu-item"><i class="fa-solid fa-circle-half-stroke"></i></div>
-        <div class="nav-menu-item"><i class="fa-solid fa-earth-americas"></i></div>
-        <div class="nav-menu-item"><i class="fa-solid fa-magnifying-glass"></i></div>
-            </div>
+        <div class="nav-right">
+            <div class="nav-menu-item"><i class="fa-solid fa-circle-half-stroke"></i></div>
+            <div class="nav-menu-item"><i class="fa-solid fa-earth-americas"></i></div>
+            <div class="nav-menu-item"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
     </div>
     </div>
     <style>
+        .main-container {
+            display: flex;
+            height: 1200px;
+        }
 
+        .main-left, 
+        .main-right {
+            width: 200px;
+            background-color: rgba(226, 223, 17, 0.705);
+        }
+
+        .main-content {
+            flex: 1;
+        }
     </style>
+    <!-- .main-container>.main-left+.main-content+.main-right -->
     <div class="main-container">
         <div class="main-left">
             <div class="main-left-menu-item">
                 Lorem.
             </div>
             <div class="main-left-menu-item">
-                Amet.
+                Consequuntur.
             </div>
             <div class="main-left-menu-item">
-                Asperiores?
+                Reiciendis!
             </div>
             <div class="main-left-menu-item">
-                Facilis!
+                Hic.
             </div>
             <div class="main-left-menu-item">
-                Possimus!
-            </div>
-            <div class="main-left-menu-item">
-                Illo.
-            </div>
-            <div class="main-left-menu-item">
-                Eius.
-            </div>
-            <div class="main-left-menu-item">
-                Assumenda.
-            </div>
-            <div class="main-left-menu-item">
-                Illum!
-            </div>
-            <div class="main-left-menu-item">
-                Possimus?
-            </div>
-            <div class="main-left-menu-item">
-                Necessitatibus.
-            </div>
-            <div class="main-left-menu-item">
-                Consequuntur?
-            </div>
-            <div class="main-left-menu-item">
-                Eaque!
-            </div>
-            <div class="main-left-menu-item">
-                Non!
-            </div>
-            <div class="main-left-menu-item">
-                Odit.
-            </div>
-            <div class="main-left-menu-item">
-                Explicabo.
-            </div>
-            <div class="main-left-menu-item">
-                Ipsa?
-            </div>
-            <div class="main-left-menu-item">
-                Dolores.
-            </div>
-            <div class="main-left-menu-item">
-                Ratione.
-            </div>
-            <div class="main-left-menu-item">
-                Quos!
-            </div>
-            <div class="main-left-menu-item">
-                Enim!
-            </div>
-            <div class="main-left-menu-item">
-                Omnis.
-            </div>
-            <div class="main-left-menu-item">
-                Sequi.
-            </div>
-            <div class="main-left-menu-item">
-                Dolorum.
-            </div>
-            <div class="main-left-menu-item">
-                Laboriosam!
-            </div>
-            <div class="main-left-menu-item">
-                Eveniet.
-            </div>
-            <div class="main-left-menu-item">
-                Fuga!
-            </div>
-            <div class="main-left-menu-item">
-                Fuga.
+                Corrupti.
             </div>
             <div class="main-left-menu-item">
                 Quis?
             </div>
             <div class="main-left-menu-item">
-                Perspiciatis?
-            </div>        </div>
-    
+                Dolorem?
+            </div>
+            <div class="main-left-menu-item">
+                Sunt.
+            </div>
+            <div class="main-left-menu-item">
+                Officiis.
+            </div>
+            <div class="main-left-menu-item">
+                Eos!
+            </div>
+            <div class="main-left-menu-item">
+                In.
+            </div>
+            <div class="main-left-menu-item">
+                Consequuntur?
+            </div>
+            <div class="main-left-menu-item">
+                Est!
+            </div>
+            <div class="main-left-menu-item">
+                Nesciunt.
+            </div>
+            <div class="main-left-menu-item">
+                Atque!
+            </div>
+            <div class="main-left-menu-item">
+                Architecto.
+            </div>
+            <div class="main-left-menu-item">
+                Enim!
+            </div>
+            <div class="main-left-menu-item">
+                Ratione.
+            </div>
+            <div class="main-left-menu-item">
+                Enim.
+            </div>
+            <div class="main-left-menu-item">
+                Esse!
+            </div>
+            <div class="main-left-menu-item">
+                Consectetur?
+            </div>
+            <div class="main-left-menu-item">
+                Corrupti?
+            </div>
+            <div class="main-left-menu-item">
+                Recusandae.
+            </div>
+            <div class="main-left-menu-item">
+                Aperiam.
+            </div>
+            <div class="main-left-menu-item">
+                Voluptatum.
+            </div>
+            <div class="main-left-menu-item">
+                Consectetur.
+            </div>
+            <div class="main-left-menu-item">
+                Quos!
+            </div>
+            <div class="main-left-menu-item">
+                Magnam.
+            </div>
+            <div class="main-left-menu-item">
+                Modi.
+            </div>
+            <div class="main-left-menu-item">
+                Consequuntur.
+            </div>
 
-        <div class="main-contents"></div>
-        <div class="main-right"></div>
+        </div>
+        <div class="main-content">
+            <h1>
+                Lorem, ipsum dolor.
+            </h1>
+            <style>
+                .button-container{
+                    display:flex;
+                    justify-content: space-between;
+                }
+               
+            </style>
+            <div class="button-container">
+                <button>Home</button>
+                <button>next</button>
+            </div>
+
+
+        </div>
+        <div class="main-right">
+            <h1>
+                Lorem, ipsum dolor.
+            </h1>
+        </div>
     </div>
-    h1
+
 </body>
+
 </html>
